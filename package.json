@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-webscraper",
+  "version": "1.0.0",
+  "description": "Basic webscraper built with Node JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmichaelbtw/nodejs-webscraper.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsmichaelbtw/nodejs-webscraper/issues"
+  },
+  "homepage": "https://github.com/itsmichaelbtw/nodejs-webscraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "cors": "^2.8.5",
+    "get-urls": "^10.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}
